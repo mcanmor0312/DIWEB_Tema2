@@ -1,0 +1,17 @@
+p{
+    color: blue;
+}
+#p3{
+    background-color: yellow;
+}
+#titulo{
+    color: #00ff15;
+    font-size: 25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+input[type="text"] {
+    border: 2px solid red;
+}
