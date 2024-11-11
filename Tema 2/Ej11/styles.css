@@ -1,0 +1,20 @@
+body{
+    color: #00ff15;
+}
+
+#albaricoque1{
+    background-image: url("https://wallpapercave.com/wp/wp11211994.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}#albaricoque2{
+    background-image: url("https://wallpapercave.com/wp/wp11211994.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}#albaricoque3{
+    background-image: url("https://wallpapercave.com/wp/wp11211994.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
