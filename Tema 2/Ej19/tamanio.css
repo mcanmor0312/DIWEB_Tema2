@@ -1,0 +1,16 @@
+#primeraSeccion{
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+}
+#segundaSeccion{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(6, 248, 6);
+}
+#terceraSeccion{
+    width: 300px;
+    min-height: 100px;
+    max-height: 200px;
+    background-color: rgb(255, 0, 0);
+}
