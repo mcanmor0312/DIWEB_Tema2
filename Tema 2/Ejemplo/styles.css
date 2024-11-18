@@ -1,0 +1,26 @@
+h1{
+    color: aqua;
+}
+.titulo{
+    color: rgb(200, 196, 255);
+}
+#parrafo{
+    color: blueviolet;
+}
+div .texto{
+    color: aquamarine !important;
+}
+p{
+    color: rgb(255, 151, 15);
+}
+/*
+¿Qué color se aplica finalmente al encabezado <h1>? Explica cuál fue la regla ganadora y por qué.
+El color aplicado al encabezado <h1> es negro, debido a que el estilo inline (style="color: black;") tiene mayor prioridad que las reglas CSS externas, incluyendo la clase .titulo.
+
+¿Cuál es el color del párrafo con el ID parrafo? ¿Qué regla prevalece?
+El color del párrafo con el ID parrafo es blueviolet, ya que esta regla tiene mayor especificidad que la regla general para p.
+
+¿Qué color tiene el párrafo con la clase texto dentro del div contenedor? Explica por qué se aplica ese color en particular.
+El párrafo con la clase texto dentro del div tiene el color aquamarine, porque la regla div .texto tiene el modificador !important, lo que le da prioridad sobre cualquier otra regla.
+
+*/

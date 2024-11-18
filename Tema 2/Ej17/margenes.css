@@ -1,0 +1,16 @@
+h2{
+    margin:solid 20px;
+    background-color:greenyellow;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    background-color:aqua;
+}
+button{
+    margin: auto;
+    margin-top: 50px;
+    background-color: aquamarine;
+}
