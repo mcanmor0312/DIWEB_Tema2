@@ -1,0 +1,44 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+    color: orangered;
+}
+
+th {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #444;
+    transition: background-color 0.3s;
+}
+
+td:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.empty-cells {
+    background-color: #333;
+}
