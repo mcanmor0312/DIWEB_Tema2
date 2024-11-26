@@ -1,0 +1,50 @@
+
+
+/* Elemento de bloque centrado horizontalmente */
+.row{
+    width: 50%;
+    margin: 20px auto;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Texto centrado dentro de un contenedor */
+.center {
+    text-align: center;
+}
+
+/* Imagen centrada horizontalmente */
+.img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+/* Elementos alineados a la izquierda y derecha */
+.alineado .left {
+    text-align: left;
+    background-color: lightcoral;
+    padding: 10px;
+    flex: 1;
+    margin-right: 10px;
+    position: absolute;
+}
+
+.alineado .right {
+    background-color: antiquewhite;
+    padding: 10px;
+    float: right;
+}
+
+/* Elemento centrado verticalmente */
+.alineado .vertical{
+    clear: both;
+    background-color: lightgray;
+    height: 100px;
+    line-height: 100px; /* Centrado vertical */
+    text-align: center;
+}

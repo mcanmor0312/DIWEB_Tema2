@@ -1,30 +1,17 @@
-.contenedor {
-    position: relative;
-  }
-
-.elem1 {
-    position: absolute;
-    z-index: 2;
-    border: solid rgb(210, 255, 12);
-    height: 100px;
-    margin: 50px;
-    background-color: rgb(236, 227, 227);
+.column {
+    width: 18%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    background-color: #000000;
+    border: 1px solid #e20909;
+    color: aliceblue;
 }
-
-.elem2 {
-    position: absolute;
-    z-index: -1;
-    border: solid rgb(233, 10, 133);
-    height: 100px;
-    margin: 50px;
-    background-color: rgb(236, 240, 236);
+footer {
+    text-align: center;
+    padding: 10pxs;
+    clear: both;
 }
-
-.elem3 {
-    position: absolute;
-    z-index: 1;
-    border: solid rgb(248, 128, 16);
-    height: 100px;
-    margin: 50px;
-    background-color: rgb(203, 203, 214);
+header{
+    text-align: center;
 }
