@@ -1,0 +1,37 @@
+#div1{
+    position: static;
+    border: 3px solid #f5990e;
+    background-color: #efffda;
+}
+#div2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border: 3px solid #1723cc;
+    background-color: #ffd8d8;
+}
+#div3{
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #eb1580;
+    background-color: #d4deff;
+    padding-bottom: 2000px;
+}
+#div4{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 300px;
+    border: 3px solid #21ada1;
+    background-color: #fdf8cc;
+}
+#div5 {
+    position: sticky;
+    top: 10px;
+    width: 70px;
+    border: 2px solid #af4c99;
+    background-color: #ffc4f2;
+}
