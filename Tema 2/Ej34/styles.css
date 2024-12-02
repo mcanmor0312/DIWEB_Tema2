@@ -1,0 +1,54 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    color: blue;
+  }
+  
+  .parent {
+    font-family: 'Courier New', monospace;
+    color: red;
+  }
+  
+  .default {
+    font-family: Verdana, sans-serif;
+    color: green;
+  }
+  
+  .inherit {
+    font-family: inherit;
+    color: inherit;
+  }
+  
+  .initial {
+    font-family: initial;
+    color: initial;
+  }
+  
+  .unset {
+    font-family: unset;
+    color: unset;
+  }
+  
+  .revert {
+    font-family: revert;
+    color: revert;
+  }
+/*
+¿Que estilo toma el texto con inherit?¿Por que?
+
+
+Como se comporta el texto con initial? Que significa este valor?
+
+Que sucede con el unset? Es diferente para propiedades heredables y no heredables?
+
+Como actua revert en comparacion con los otros valores?
+
+Respuestas: 
+inherit: El texto toma el estilo de su elemento padre (.parent), es decir, font-family: 'Courier New', monospace y color: red, porque inherit fuerza heredar el valor del padre.
+
+initial: Restaura el valor inicial definido por el estándar CSS (font-family: inherit y color: black), ignorando estilos heredados o aplicados.
+
+unset: Comporta como inherit para propiedades heredables (color) y como initial para no heredables (font-family).
+
+revert: Revierte al estilo que se aplicaría por el navegador o estilos predeterminados ignorando reglas personalizadas (color: blue y font-family: Arial).
+*/  

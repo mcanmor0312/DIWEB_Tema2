@@ -1,0 +1,29 @@
+/* Estiliza el primer hijo de cada lista (ul) */
+.tareas li:first-child,
+.contactos li:first-child {
+    background-color: lightblue;
+}
+
+/* Estiliza el último hijo de cada lista (ul) */
+.tareas li:last-child,
+.contactos li:last-child {
+    font-weight: bold;
+}
+
+/* Aplica un estilo único al tercer elemento de la lista de tareas */
+.tareas li:nth-child(3) {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+/* Cambia el color de texto de los hermanos inmediatos del elemento que contiene "Pagar facturas" */
+.tareas li:nth-child(3) ~ li,
+.tareas li:nth-child(3) + li {
+    color: gray;
+}
+
+/* Agrega un borde al segundo hijo de la lista de contactos */
+.contactos li:nth-child(2) {
+    border: 2px solid green;
+    padding: 5px;
+}

@@ -7,14 +7,20 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
+    opacity: 0.5;
 }#albaricoque2{
     background-image: url("https://wallpapercave.com/wp/wp11211994.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    opacity: 0.5;
 }#albaricoque3{
     background-image: url("https://wallpapercave.com/wp/wp11211994.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: local;
+    opacity: 0.5;
+}
+#albaricoque3:hover, #albaricoque2:hover, #albaricoque1:hover{
+    opacity: 1;
 }
