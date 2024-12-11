@@ -6,12 +6,12 @@ p{
 
 @media screen {
     img{
-        text-align: center;
+        position: center;
     }    
 }
 @media not screen{
     p,img{
-        text-align: left;
+        position:left;
     }
 }
 a{

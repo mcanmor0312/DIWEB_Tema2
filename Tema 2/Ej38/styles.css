@@ -1,0 +1,100 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Menú de navegación */
+.navigation .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.menu-item a:hover {
+    color: #ffc107;
+}
+
+/* Estilo responsivo para pantallas grandes */
+@media (min-width: 768px) {
+    .site-header {
+        flex-direction: row;
+    }
+
+    .menu {
+        justify-content: flex-end;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+}
+
+/* Estilo responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-item {
+        width: 100%;
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    .menu-item a {
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+}
+
+/* Estilo basado en la orientación */
+@media (orientation: portrait) {
+    .site-header {
+        background-color: #007bff; /* Azul */
+    }
+}
+
+@media (orientation: landscape) {
+    .site-header {
+        background-color: #28a745; /* Verde */
+    }
+}
