@@ -1,0 +1,236 @@
+/* Tema claro (por defecto) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 100px;
+    margin: 0;
+}
+
+.contacto-section {
+    background-color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contacto-section h2 {
+    font-size: 28px;
+}
+
+.contacto-section .info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contacto-section .info p {
+    margin: 10px 0;
+}
+
+.phone-number {
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.subscribe-section {
+    margin-top: 40px;
+}
+
+.subscribe-section p {
+    font-size: 18px;
+}
+
+.subscribe-section input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 300px;
+}
+
+.subscribe-section input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ratings {
+    margin-top: 30px;
+}
+
+.ratings span {
+    font-size: 30px;
+    color: gold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #232323;
+}
+
+footer a {
+    margin: 25px 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #3737e1;
+}
+
+footer .payment-icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+/* Tema oscuro */
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-theme header {
+    background: #333;
+}
+
+body.dark-theme h1 {
+    background-color: #000;
+    color: white;
+}
+
+body.dark-theme .contacto-section {
+    background-color: #222;
+    color: white;
+}
+
+body.dark-theme .subscribe-section input[type="email"],
+body.dark-theme .subscribe-section input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.dark-theme footer {
+    background-color: #1c1c1c;
+}
+
+body.dark-theme footer a {
+    color: white;
+}
+
+body.dark-theme footer a:hover {
+    color: #3737e1;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row; /* Cambiar de column a row */
+        justify-content: center; /* Centrar las imágenes */
+        align-items: center; 
+    }
+
+    header img {
+        height: 80px;
+        width: auto; /* Mantener la proporción original */
+        margin: 0 10px; /* Espaciado entre las imágenes */
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav button {
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    /* Título principal */
+    h1 {
+        font-size: 60px;
+    }
+
+    /* Sección de contacto */
+    .contacto-section {
+        padding: 40px 15px;
+    }
+
+    .contacto-section h2 {
+        font-size: 24px;
+    }
+
+    .contacto-section .info {
+        font-size: 16px;
+    }
+
+    .telefono {
+        font-size: 20px;
+        background-color: #939393;
+        border: 15px solid #939393;
+    }
+
+    input {
+        width: 300px;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    /* Valoraciones */
+    .ratings h3 {
+        font-size: 20px;
+    }
+
+    .ratings span {
+        font-size: 24px;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    footer a:hover {
+        color: #3737e1;
+    }
+}

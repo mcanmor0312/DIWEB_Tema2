@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Demon</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="ImagenesProyecto/Logo.png" alt="Demon Logo">
+        <img src="ImagenesProyecto/Letras loog.png" alt="Letras">
+        <nav>
+            <button onclick="window.location.href='Inicio.html'">Inicio</button>
+            <button onclick="window.location.href='Catalogo.html'">Catálogo</button>
+            <!-- Botón para cambiar el tema -->
+            <button class="theme-toggle" onclick="toggleTheme()">Cambiar Tema</button>
+        </nav>
+    </header>
+
+    <h1>CONTACTOS</h1>
+
+    <div class="contacto-section">
+        <h2>Si quieres contactar con nosotros puedes hacerlo por:</h2>
+        <div class="info">
+            <p>Llamando a nuestro Servicio de Atención al cliente</p>
+            <div class="telefono">602 24 79 04</div>
+        </div>
+
+        <div class="subscribe-section">
+            <p>¡Suscríbete a nuestras noticias con novedades y ofertas increíbles!</p>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <input type="submit" value="Suscribirse">
+            <p>Al inscribirte apruebas la <a href="politicaPrivacidad.html">Política de privacidad</a></p>
+        </div>
+
+        <div class="ratings">
+            <h3>VALORACIONES</h3>
+            <span>★ ★ ★ ★ ★ </span>
+        </div>
+    </div>
+
+    <footer>
+        <img src="ImagenesProyecto/RedesSociales.jpg" alt="Redes">
+        <div>
+            <a href="#">Aviso Legal</a> |
+            <a href="politicaPrivacidad.html">Política y privacidad</a> |
+            <a href="#">Política de cookies</a>
+        </div>
+    </footer>
+
+    <script>
+        // Función para cambiar entre tema claro y oscuro
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+        }
+    </script>
+
+</body>
+
+</html>
